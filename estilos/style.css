@@ -58,7 +58,8 @@ div#formulario>h1{
 
 }
 div#formulario>p{
-    font-size: 0.8em;
+    font-size: 1em;
+    margin: 20px 0px;
 
 }
 form>div.campo{
@@ -66,13 +67,34 @@ form>div.campo{
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
+    border: 2px solid #BF7E04;
     margin: 5px 0px
     
 }
 div.campo>label{
     display: none;
 
+}
+div.campo>i{
+    color:white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+
+}
+div.campo>input{
+    background-color:#D9B54A ;
+    font-size: 1em;
+    width:calc(100% - 44px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 5px;
+}
+div.campo>input:focus-within{
+    background-color: white;
 }
 form>input[type=submit]{
     display: block;
