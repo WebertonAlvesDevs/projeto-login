@@ -5,3 +5,50 @@ Amarelo: #F2CF1D
 Amarelo Dark: #BF7E04
 Marrom Amarelado: #8C3503 */
 
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body,html{
+    background-color: #BF7E04;
+    height: 100vh;
+    width: 100vw;
+
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+
+    transition: width 0.5, height 0.5;
+    transition-timing-function: ease;
+
+}
+section#login>div#imagem{
+    background: #F2CF1D url(../imagens/fundologin.jpg);
+    background-size: cover no-repeat;
+    background-position: center right;
+    height: 200px;
+
+}
+section#login>formulario{
+    display: block;
+    padding: 10px;
+
+}
